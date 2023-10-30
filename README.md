@@ -1,5 +1,4 @@
 # Video streaming app
----
 
 This is a video streaming website where you can dump your videos see your uploaded videos.
 In this project you will find a prety good implementation of JS streams, transcoding big files, uses of ffmpeg etc.
