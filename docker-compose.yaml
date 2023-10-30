@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  app:
+    image: video-streaming-app
+    restart: always
+    build:
+      context: ./backend
+    ports:
+      - "4000:4000"
+    volumes:
+      - backup-videos:/app/transcoded
+
+volumes:
+  backup-videos:
